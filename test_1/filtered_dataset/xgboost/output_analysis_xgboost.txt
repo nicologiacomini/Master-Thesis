@@ -1,0 +1,3 @@
+Train MAE: 379.1871, Test MAE: 346.4501
+Train RMSE: 813.3507, Test RMSE: 615.8777
+The model may be underfitting: performs poorly on both training and test data.

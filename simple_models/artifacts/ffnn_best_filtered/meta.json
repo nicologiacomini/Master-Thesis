@@ -1,0 +1,1 @@
+{"n_splits": 5, "hidden_neurons": 64, "learning_rate": 0.01, "num_epochs": 1000}

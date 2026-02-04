@@ -1,0 +1,15 @@
+{
+  "model": "XGBoost with Asymmetric Loss",
+  "eval_metric": "mae",
+  "eta": 0.1,
+  "max_depth": 6,
+  "num_boost_round": 200,
+  "early_stopping_rounds": 50,
+  "penalty_factor": 100.0,
+  "mae_usl": 553.2317900210619,
+  "rmse_usl": 996.3332394318891,
+  "mae_hybrid": 127.9636655360406,
+  "rmse_hybrid": 406.0223672568828,
+  "improvement_mae_percent": 76.86979167788442,
+  "r2_score_percent": 96.84
+}

@@ -1,0 +1,57 @@
+# Python Dependencies for COMPSs ML Models
+
+## Core Dependencies
+torch>=2.0.0
+xgboost>=1.7.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+joblib>=1.1.0
+
+## Analysis and Visualization (Optional)
+matplotlib>=3.5.0
+pandas>=1.3.0
+seaborn>=0.11.0
+
+## Installation
+
+### Basic Installation (Model Execution Only)
+```bash
+pip install torch xgboost numpy scikit-learn joblib
+```
+
+### Full Installation (Including Analysis Tools)
+```bash
+pip install -r requirements.txt
+```
+
+### Alternative: Conda Installation
+```bash
+conda install pytorch numpy scikit-learn joblib -c pytorch
+conda install xgboost matplotlib pandas seaborn -c conda-forge
+```
+
+## Version Notes
+
+- **PyTorch**: Models were trained with PyTorch 2.x. CPU version is sufficient for inference.
+- **XGBoost**: Version 1.7+ recommended for compatibility with saved models.
+- **Python**: Requires Python 3.8 or higher.
+
+## Platform Compatibility
+
+All dependencies are cross-platform and work on:
+- Linux
+- macOS
+- Windows
+
+## Minimal Requirements
+
+For deployment in resource-constrained environments, only these are essential:
+```
+torch
+xgboost
+numpy
+scikit-learn
+joblib
+```
+
+The analysis scripts (ffnn_analysis.py, xgboost_analysis.py) require matplotlib, pandas, and seaborn, but are not needed for model inference.

@@ -1,0 +1,3 @@
+Train MAE: 886.8905, Test MAE: 919.4124
+Train RMSE: 1678.9069, Test RMSE: 1811.3069
+The model may be overfitting: performs better on training data than on test data.

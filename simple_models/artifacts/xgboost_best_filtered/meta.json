@@ -1,0 +1,1 @@
+{"n_splits": 5, "params": {"eval_metric": "mae", "eta": 0.05, "max_depth": 4, "seed": 42, "subsample": 0.8, "lambda": 1.0}, "num_boost_round": 1000}

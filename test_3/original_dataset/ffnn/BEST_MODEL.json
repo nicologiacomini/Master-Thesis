@@ -1,0 +1,13 @@
+{
+  "model_architecture": "3-32-32-1",
+  "num_epochs": 1500,
+  "learning_rate": 0.1,
+  "activation_function": "Sigmoid",
+  "penalty_factor": 2.0,
+  "mae_usl": 1324.512,
+  "rmse_usl": 2293.8806,
+  "mae_hybrid": 148.11278,
+  "rmse_hybrid": 474.4695,
+  "improvement_mae_percent": 88.81756,
+  "r2_score_percent": 95.28
+}

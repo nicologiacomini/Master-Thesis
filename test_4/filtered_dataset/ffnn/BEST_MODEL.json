@@ -1,0 +1,13 @@
+{
+  "model_architecture": "2-64-64-1",
+  "num_epochs": 150,
+  "learning_rate": 0.01,
+  "activation_function": "ReLU",
+  "penalty_factor": 2.0,
+  "mae_usl": 1170.8667344125083,
+  "rmse_usl": 2000.6998630624682,
+  "mae_hybrid": 147.47102670714725,
+  "rmse_hybrid": 407.02502743127116,
+  "improvement_mae_percent": 87.12993190944327,
+  "r2_score_percent": 94.93
+}
